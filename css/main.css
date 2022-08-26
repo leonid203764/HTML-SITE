@@ -486,7 +486,7 @@ body {
 @media screen and (min-width: 768px) {
   .contacts {
     padding: 0;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 1.1666666667;
   }
