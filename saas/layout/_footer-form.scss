@@ -1,21 +1,22 @@
 .footer-form {
-    display: block;
-    margin-top: 60px;
-    margin-left: auto;
-    margin-right: auto;
+     display: block;
+     margin-top: 60px;
+     margin-left: auto;
+     margin-right: auto;
 
     @media screen and (min-width: 768px) {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 100%;
     }
 
     @media screen and (min-width: 1200px) {
-    display: flex;
-    flex-direction: row;
-    align-items: end;
-    margin-left: 93px;
+     display: flex;
+     margin: 0;
+     flex-direction: row;
+     align-items: end;
+     margin-left: 93px;
     }
   }
   .footer-form-field {
@@ -84,6 +85,11 @@
     &:hover,
     &:focus {
     background-color: #188ce8;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 0;
+    margin-left: 0;
   }
   }
   .footer-btn-send-icon {

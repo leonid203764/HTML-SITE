@@ -135,6 +135,10 @@
     padding: 0;
     @include font(12px, 500, 14px);
   }
+
+  @media screen and (min-width: 1200px) {
+    @include font(14px, 500, 16px);
+  }
   }
   .current {
     position: relative;
